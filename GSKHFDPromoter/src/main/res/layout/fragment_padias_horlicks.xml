@@ -1,0 +1,16 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/slide17"
+    tools:context="com.cpm.gsk.hfd.promoter.fragment.JuniorHorlicksFragment">
+    <Button
+        android:layout_width="170dp"
+        android:layout_height="40dp"
+        android:background="@drawable/next_button"
+        android:id="@+id/nxt_btn"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_alignParentBottom="true"/>
+</RelativeLayout>

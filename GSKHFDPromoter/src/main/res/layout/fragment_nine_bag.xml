@@ -1,0 +1,28 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/slide21"
+    tools:context="com.cpm.gsk.hfd.promoter.fragment_6.NineBagFragment">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp">
+
+        <Button
+            android:id="@+id/btn_yes"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:background="@drawable/yes_button"
+            />
+        <Button
+            android:id="@+id/btn_no"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:layout_below="@+id/btn_yes"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/no_button" />
+    </RelativeLayout>
+</RelativeLayout>

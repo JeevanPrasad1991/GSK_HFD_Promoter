@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/custom_margin"
+    android:paddingLeft="@dimen/custom_margin"
+    android:paddingRight="@dimen/custom_margin"
+    android:paddingTop="@dimen/custom_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.cpm.gsk.hfd.promoter.skufragment.SkuFragment"
+    tools:showIn="@layout/fragment_sku"
+    android:background="#fff">
+
+    <ExpandableListView
+        android:id="@+id/sku_list"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="23dp"
+        android:layout_marginBottom="2dp"
+        android:cacheColorHint="#00000000" />
+   <!-- <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/sku_list">
+    </ListView>-->
+
+   <!-- <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/cardview_exists"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardBackgroundColor="@color/white"
+        card_view:cardUseCompatPadding="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+            <LinearLayout
+                android:id="@+id/lay_remarks"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="4">
+                <TextView
+                    android:gravity="center_horizontal"
+                    android:id="@+id/textremark"
+                    android:padding="8dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Remark"
+                    android:textSize="18dp" />
+                <EditText
+                    android:textSize="16dp"
+                    android:layout_marginLeft="8dp"
+                    android:inputType="textAutoCorrect"
+                    android:hint="Qwantity"
+                    android:padding="10dp"
+                    android:layout_toRightOf="@+id/textremark"
+                    android:id="@+id/remark_edt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <requestFocus/>
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>-->
+
+
+</RelativeLayout>

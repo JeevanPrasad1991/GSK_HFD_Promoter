@@ -1,0 +1,84 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/slide27_main"
+    tools:context="com.cpm.gsk.hfd.promoter.fragment.AllHealthdrinkFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="?actionBarSize"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="?actionBarSize"
+            android:layout_marginRight="?actionBarSize"
+            android:layout_marginTop="16dp"
+            android:weightSum="8"
+            android:id="@+id/ll_up">
+            <ImageView
+                android:id="@+id/img_juniH"
+                android:layout_width="98dp"
+                android:layout_height="98dp"
+                android:layout_weight="2"
+                android:src="@drawable/slide8_juniorhlx"/>
+            <ImageView
+                android:id="@+id/img_pedisure"
+                android:layout_width="98dp"
+                android:layout_height="98dp"
+                android:layout_weight="2"
+                android:src="@drawable/slide27_pediasure"
+                />
+            <ImageView
+                android:id="@+id/img_champ"
+                android:layout_width="98dp"
+                android:layout_height="98dp"
+                android:src="@drawable/slide8_bvtlilchamps"
+                android:layout_weight="2"/>
+            <ImageView
+                android:id="@+id/img_complain"
+                android:layout_width="98dp"
+                android:layout_height="98dp"
+                android:src="@drawable/slide27_complan"
+                android:layout_weight="2"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="9"
+            android:layout_marginTop="3dp"
+            android:layout_marginLeft="?actionBarSize"
+            android:layout_marginRight="?actionBarSize"
+            android:layout_below="@+id/ll_up"
+            >
+            <ImageView
+                android:id="@+id/img_horlicks"
+                android:layout_width="98dp"
+                android:layout_height="98dp"
+                android:layout_weight="3"
+                android:src="@drawable/slide27_horlicks"/>
+            <ImageView
+                android:id="@+id/img_other"
+                android:layout_width="98dp"
+                android:layout_height="98dp"
+                android:layout_weight="3"
+                android:src="@drawable/slide27_others"
+                />
+            <ImageView
+                android:id="@+id/img_firsttime"
+                android:layout_width="98dp"
+                android:layout_height="98dp"
+                android:src="@drawable/slide27_first_time_user"
+                android:layout_weight="3"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+</RelativeLayout>

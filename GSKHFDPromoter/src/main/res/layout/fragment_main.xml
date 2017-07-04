@@ -1,0 +1,35 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/slide01"
+    tools:context="com.cpm.gsk.hfd.promoter.fragment.MainFragment">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="10dp">
+
+        <Button
+            android:id="@+id/btn_start"
+            android:layout_width="170dp"
+            android:layout_height="40dp"
+            android:background="@drawable/start_call_button"
+
+            />
+
+        <Button
+            android:id="@+id/btn_session"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:layout_below="@+id/btn_start"
+            android:layout_marginTop="7dp"
+            android:background="@drawable/practice_session_button"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,50 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/slide37"
+    tools:context=".tenplusfragment.TenPlusHomeFragment">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/next_button"
+        android:id="@+id/nxt_btn"
+        android:visibility="gone"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_alignParentBottom="true"/>
+
+    <LinearLayout
+        android:layout_marginRight="6dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/most_btn"
+            android:background="@drawable/slide29_most_of_the_time"
+            android:layout_width="170dp"
+            android:layout_height="40dp"
+            />
+        <Button
+            android:layout_marginTop="10dp"
+            android:id="@+id/sometym_btn"
+            android:background="@drawable/slide29_sometimes"
+            android:layout_width="170dp"
+            android:layout_height="40dp"
+            />
+
+        <Button
+            android:layout_marginTop="10dp"
+            android:id="@+id/never_btn"
+            android:background="@drawable/slide29_never"
+            android:layout_width="170dp"
+            android:layout_height="40dp"
+            />
+    </LinearLayout>
+
+</RelativeLayout>

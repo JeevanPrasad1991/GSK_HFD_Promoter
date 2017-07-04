@@ -1,0 +1,84 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/slide_43_main"
+    tools:context="com.cpm.gsk.hfd.promoter.womenfragment.WomenSubHomeFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="230dp"
+        android:weightSum="10"
+        android:layout_marginTop="?actionBarSize"
+        android:orientation="horizontal">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="5"
+            android:layout_marginRight="?actionBarSize"
+            android:layout_marginTop="?actionBarSize"
+            android:weightSum="9"
+            android:id="@+id/ll_up">
+
+            <ImageView
+                android:id="@+id/img_feeling"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_weight="3"
+                android:src="@drawable/slide43_feeling_weakness" />
+
+            <ImageView
+                android:id="@+id/img_occation"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:src="@drawable/slide43_occasional_bodypainl"
+                android:layout_weight="3" />
+
+            <ImageView
+                android:id="@+id/img_stress"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:src="@drawable/slide43_stress"
+                android:layout_weight="3" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="9"
+            android:layout_weight="5"
+            android:layout_marginTop="?actionBarSize"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="?actionBarSize"
+            android:layout_below="@+id/ll_up">
+
+            <ImageView
+                android:id="@+id/img_high"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_weight="3"
+                android:src="@drawable/slide43_high_cholestrol" />
+
+            <ImageView
+                android:id="@+id/img_highlow"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_weight="3"
+                android:src="@drawable/slide43_high_low_bp" />
+
+            <ImageView
+                android:id="@+id/img_expecting"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:src="@drawable/slide43_are_you_expecting"
+                android:layout_weight="3" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

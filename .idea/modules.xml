@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/GSKHFDPromoter/GSKHFDPromoter.iml" filepath="$PROJECT_DIR$/GSKHFDPromoter/GSKHFDPromoter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GSK_HFD_Promoter.iml" filepath="$PROJECT_DIR$/GSK_HFD_Promoter.iml" />
+    </modules>
+  </component>
+</project>

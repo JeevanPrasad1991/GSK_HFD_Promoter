@@ -1,0 +1,65 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/slide27_main"
+    tools:context="com.cpm.gsk.hfd.promoter.tenplusfragment.StaminaFragment">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="?actionBarSize"
+        android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginLeft="?actionBarSize"
+        android:layout_marginRight="?actionBarSize"
+        android:layout_marginTop="?actionBarSize"
+        android:weightSum="8"
+        android:id="@+id/ll_up">
+       <TextView
+           android:layout_marginLeft="?actionBarSize"
+           android:layout_width="wrap_content"
+           android:textColor="#000"
+           android:textSize="23dp"
+           android:layout_height="wrap_content"
+           android:text="What exactly are you looking for your kids?"/>
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginLeft="?actionBarSize"
+            android:layout_marginRight="?actionBarSize"
+            android:layout_marginTop="10dp">
+            <Button
+                android:id="@+id/nourism_btn"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="?actionBarSize"
+                android:layout_marginRight="?actionBarSize"
+                android:layout_width="170dp"
+                android:layout_height="40dp"
+                android:textSize="20dp"
+                android:text="Nourishment"
+                />
+            <Button
+                android:id="@+id/stamina_btn"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="?actionBarSize"
+                android:layout_marginRight="?actionBarSize"
+                android:layout_width="170dp"
+                android:layout_height="40dp"
+                android:textSize="20dp"
+                android:text="Stamina"
+                />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
